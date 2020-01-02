@@ -1,3 +1,4 @@
+
 /* latin-ext */
 @font-face {
   font-family: 'Raleway';
@@ -17,12 +18,22 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+body{
+    background-color: #f7f7f7;
+}
+
 .interval-picker{
     width: 90px;
     display: inline-block;
     font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 10px;
+    margin-right: 3px;
 }
 
+.input-section{
+    margin-bottom: 10px;
+}
 
 .inline {
     display: inline-block;
@@ -32,6 +43,7 @@
     font-family: 'Raleway', sans-serif;
     border: 1px solid #DBDBDB;
     border-radius: 4px;
+    width: 50px;
 }
 
 .CalendarDay__selected_span {
@@ -45,5 +57,10 @@
     border-right: 33px solid #262a30;
     bottom: 0;
     right: 0;
+}
+
+.input-field {
+    margin: 5px;
+    border-radius: 4px;
 }
 
