@@ -89,7 +89,7 @@ app.layout = html.Div([
 
 def intraday_alpha_vantage(symbol, timeframe):
     data = getResponse(
-        "http://0.0.0.0:3440/stock/{}/{}".format(symbol, timeframe))
+        "https://we-go-libra.tech:8000/stock/{}/{}".format(symbol, timeframe))
     parsed = json.loads(data)
     df = pd.DataFrame(columns=['open', 'high', 'low', 'close', 'volume'])
     timeseries = []
