@@ -9,7 +9,7 @@ dash-html-components==1.0.1
 dash-renderer==1.2.0
 dash-table==4.5.0
 dj-database-url==0.5.0
-Django==2.2.6
+Django==2.2.13
 django-heroku==0.3.1
 Flask==1.1.1
 Flask-Compress==1.4.0
